@@ -18,25 +18,26 @@ module.exports = {
                 {
                     loader: "style-loader",
                     options: {
-                        sourceMap:true
+                        sourceMap: true
                     }
 
                 },
                 {
                     loader: "css-loader",
                     options: {
-                        sourceMap:true
+                        sourceMap: true
                     }
                 },
                 {
                     loader: "sass-loader",
                     options: {
                         includePaths: ["absolute/path/a", "absolute/path/b"],
-                        sourceMap:true
+                        sourceMap: true
                     }
                 }
             ]
         }]
     },
+    plugins: [],
     devtool: 'cheap-eval-source-map' // remove for build
 };

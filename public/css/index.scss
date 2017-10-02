@@ -6,11 +6,13 @@
 }
 
 .text {
+    transform: rotate(-5deg);
     color: green;
     font-weight: 700;
     display: block;
     text-transform: capitalize;
-    padding: 10px;
+    padding-bottom: 10px;
     margin: 10px;
     position: relative;
+    overflow-y: hidden;
 }
