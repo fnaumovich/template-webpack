@@ -1,4 +1,4 @@
-function createElement(tag, props, ...children) {
+export default function createElement(tag, props, ...children) {
     const element = document.createElement(tag);
 
     Object.keys(props).forEach(key => element[key] = props[key]);
@@ -13,5 +13,3 @@ function createElement(tag, props, ...children) {
 
     return element;
 }
-
-export { createElement };

@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "start": "webpack-dev-server",
-        "build": "webpack"
-//        "precommit": "lint-staged"
+        "build": "webpack",
+        "precommit": "lint-staged"
     },
     "lint-staged": {
         "*.{scss}": [
@@ -16,6 +16,7 @@
     "devDependencies": {
         "css-loader": "^0.28.7",
         "husky": "^0.14.3",
+        "lint-staged": "^6.0.0",
         "node-sass": "^4.7.2",
         "postcss-html": "^0.9.0",
         "postcss-scss": "^1.0.2",
