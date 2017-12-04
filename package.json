@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "webpack-dev-server",
-        "build": "webpack",
+        "build": "webpack"
 //        "precommit": "lint-staged"
     },
     "lint-staged": {
