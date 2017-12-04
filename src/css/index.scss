@@ -1,18 +1,18 @@
 @import "reboot";
 
 .title {
-    font-weight: 700;
     color: tomato;
+    font-weight: 700;
 }
 
 .text {
-    display: block;
     position: relative;
-    padding-bottom: 10px;
+    display: block;
     margin: 10px;
-    font-weight: 700;
+    padding-bottom: 10px;
     color: green;
-    transform: rotate(-5deg);
+    font-weight: 700;
     text-transform: capitalize;
+    transform: rotate(-5deg);
     overflow-y: hidden;
 }
