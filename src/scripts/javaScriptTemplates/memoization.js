@@ -1,5 +1,5 @@
 export default function memoizedAdd() {
-    let cache = {};
+    const cache = {};
 
     return (n) => {
         if (n in cache) {
@@ -9,9 +9,9 @@ export default function memoizedAdd() {
         }
 
         console.log('Calculating result');
-        let result = n + 10;
+        const result = n + 10;
         cache[n] = result;
 
         return result;
-    }
+    };
 };
