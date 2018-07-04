@@ -17,7 +17,7 @@ const memoize = (fn) => {
     }
 };
 
-const factorial = memoize(
+export default factorial = memoize(
     i => {
         if (i === 1) {
             return i;
@@ -26,5 +26,3 @@ const factorial = memoize(
         return i * factorial(i - 1);
     }
 );
-
-export default factorial;

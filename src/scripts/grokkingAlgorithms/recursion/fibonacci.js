@@ -5,13 +5,17 @@ export default function fibonacci(n) {
 };
 
 
-function fibonacci2(n) {
-    let a = 1,
-        b = 1;
-    for (let i = 3; i <= n; i++) {
-        let c = a + b;
-        a = b;
-        b = c;
+function fibonacci2(num) {
+    let a = 1;
+    let b = 0;
+    let temp;
+
+    while (num >= 0){
+        temp = a;
+        a = a + b;
+        b = temp;
+        num--;
     }
+
     return b;
 }
