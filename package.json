@@ -112,6 +112,8 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
-        "lodash.get": "^4.4.2"
+        "libphonenumber-js": "^1.6.8",
+        "lodash.get": "^4.4.2",
+        "moment": "^2.22.2"
     }
 }

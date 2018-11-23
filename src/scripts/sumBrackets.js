@@ -13,19 +13,17 @@ export function sumBrackets(a) {
     return inner;
 }
 
-
 export function sumBrackets2(a) {
-   let result = a;
+    let result = a;
 
-   const inner = (b) => {
-       result += b;
-       return inner;
-   };
+    const inner = (b) => {
+        result += b;
+        return inner;
+    };
 
-   inner.toString = () => {
-       return result;
-   };
+    inner.toString = () => {
+        return result;
+    };
 
-   return inner;
+    return inner;
 }
-
